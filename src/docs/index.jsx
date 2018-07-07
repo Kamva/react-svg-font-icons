@@ -6,7 +6,7 @@ function Demo() {
   return (
     <div>
       <h1>Demo with examples of the SvgFontIcons</h1>
-      <SvgFontIcons name="trash" color="#039BE5" size="5rem" />
+        <SvgFontIcons name="trash" fill="#039BE5" size="5rem" onClick={() => console.log('Hello SVG Icon! ')} />
     </div>
   );
 }
