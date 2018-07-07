@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint-config-airbnb-base",
+    "plugin:react/recommended"
+  ]
+}
