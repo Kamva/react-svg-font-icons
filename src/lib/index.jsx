@@ -49,7 +49,7 @@ SvgFontIcons.propTypes = {
 SvgFontIcons.defaultProps = {
   sets: 'fontAwesome',
   size: '1rem',
-  color: 'red',
+  color: '#03A9F4',
   className: null,
   onClick: null,
 };
