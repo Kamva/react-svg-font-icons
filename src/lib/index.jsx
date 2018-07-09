@@ -66,4 +66,7 @@ SvgFontIcons.defaultProps = {
   className: null,
 };
 
+export const AwesomeSvg = props => <SvgFontIcons sets="fontAwesome" {...props} />;
+export const SimpleLineSvg = props => <SvgFontIcons sets="lineIcon" {...props} />;
+
 export default SvgFontIcons;
