@@ -28,6 +28,16 @@ import SvgFontIcons from 'react-svg-font-icons';
     <SvgFontIcons sets="lineIcon" name="trash" color="#333" /> 
   )
 ```
+If you want use default sets in entire project you:
 
-### todo
-- how to use hoc and change default icon sets
+```jsx
+import React from 'react';
+import { AwesomeSvg, SimpleLineSvg } from 'react-svg-font-icons';
+const IconA () => (
+  <AwesomeSvg name="trash" />
+);
+
+const IconB = () => (
+  <SimpleLineSvg name="trash" />
+)
+```
