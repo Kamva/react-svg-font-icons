@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  background-color: #393939;
+
+}
+
+table {
+  width: 100%;
+  background-color: #fff;
+}
+
+
+table, th, td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+td {
+  text-align: center;
+}
+
+.td-keys {
+  position: relative;
+  width: 35%;
+  cursor: pointer;
+  text-align: left;
+  overflow: hidden;
+}
+
+.td-keys:hover {
+  color: #00ad5f !important;
+}
+
+.td-keys::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 100%;
+  background: rgba(0, 173, 95, 0.1);
+  transition: all 0.2s ease;
+  transform: translateY(0);
+}
+.td-keys.coppied::before  {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.table-container {
+  max-width: 85rem;
+  margin: 0 auto;
+}
+
+.table-container > p {
+  color: #fff;
+}
+
+h1 {
+  color: #00ad5f;
+  /* padding: */
+  line-height: 1.7;
+}
+
+
+/*==================================================================
+[ Ver3 ]*/
+
+.table100.ver3 {
+  background-color: #393939;
+}
+
+.table100.ver3 th {
+  font-family: Lato-Bold;
+  font-size: 15px;
+  color: #00ad5f;
+  line-height: 1.4;
+  text-transform: uppercase;
+  background-color: #393939;
+}
+
+.table100.ver3 td {
+  font-family: Lato-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.4;
+  background-color: #222222;
+}
+
+
+/*---------------------------------------------*/
+
+.table100.ver3 {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.table100.ver3 .ps__rail-y {
+  right: 5px;
+}
+
+.table100.ver3 .ps__rail-y::before {
+  background-color: #4e4e4e;
+}
+
+.table100.ver3 .ps__rail-y .ps__thumb-y::before {
+  background-color: #00ad5f;
+}
+
