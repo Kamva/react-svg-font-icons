@@ -26,7 +26,7 @@ import SvgFontIcons from 'react-svg-font-icons';
 
   const SimpleLineIcons = () => (
     <SvgFontIcons sets="lineIcon" name="trash" color="#333" /> 
-  )
+  );
 ```
 If you want use default sets in entire project you:
 
@@ -39,5 +39,18 @@ const IconA () => (
 
 const IconB = () => (
   <SimpleLineSvg name="trash" />
-)
+);
 ```
+
+
+## Props
+| prop key        | default props  |   describe  |
+| ------------- |:-------------:|:-------------:|
+| sets     | fontAwesome |  icons set |
+| name     | *none* | icon name |
+| size      | 1rem   | size set svg width and height value|
+| fill |  none  | icon color if you want change svg color with css, prevent to change this prop |
+| className |  *none*  | custom class name |
+
+## License
+MIT © [RE7A](https://reza.blue)
