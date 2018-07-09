@@ -1,4 +1,4 @@
-import fontAwesome from '../fontAwsome';
+import fontAwesome from '../fontAwesome';
 import lineIcon from '../lineIcon';
 
 test('match keys', () => {
