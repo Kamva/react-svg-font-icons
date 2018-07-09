@@ -1,6 +1,6 @@
 {
   "name": "react-svg-font-icons",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "main": "lib/index.js",
   "scripts": {
     "start": "concurrently \"npm run lib:watch\" \"npm run docs\"",
