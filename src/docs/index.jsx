@@ -10,7 +10,7 @@ const RowRender = ({ keys }) => (
     <tr key={id}>
       <TdKeys value={key} />
       <td><SvgFontIcons name={key} sets="fontAwesome" fill="#ccc" size="2.5rem" /></td>
-      <td><SvgFontIcons name={key} sets="lineIcon" fill="#ccc" size="2.5rem" /></td>
+      <td><SvgFontIcons name={key} sets="simpleLineIcon" fill="#ccc" size="2.5rem" /></td>
     </tr>
   ))
 );

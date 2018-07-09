@@ -25,10 +25,10 @@ import SvgFontIcons from 'react-svg-font-icons';
   );
 
   const SimpleLineIcons = () => (
-    <SvgFontIcons sets="lineIcon" name="trash" color="#333" /> 
+    <SvgFontIcons sets="simpleLineIcon" name="trash" color="#333" /> 
   );
 ```
-If you want use default sets in entire project you:
+If you want use default sets in entire project:
 
 ```jsx
 import React from 'react';

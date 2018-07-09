@@ -1,7 +1,7 @@
 import fontAwesome from './fontAwesome';
-import lineIcon from './lineIcon';
+import simpleLineIcon from './simpleLineIcon';
 
 export default ({
   fontAwesome,
-  lineIcon,
+  simpleLineIcon,
 });

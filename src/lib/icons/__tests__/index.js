@@ -1,9 +1,9 @@
 import fontAwesome from '../fontAwesome';
-import lineIcon from '../lineIcon';
+import simpleLineIcon from '../simpleLineIcon';
 
 test('match keys', () => {
   const fontAwesomeKeys = Object.keys(fontAwesome);
-  const lineIconkeys = Object.keys(lineIcon);
+  const simpleLineIconkeys = Object.keys(simpleLineIcon);
 
-  expect(fontAwesomeKeys).toEqual(lineIconkeys);
+  expect(fontAwesomeKeys).toEqual(simpleLineIconkeys);
 });
