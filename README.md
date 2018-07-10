@@ -10,7 +10,9 @@ Icon sets that supported:
 - simple line icons
 
 ## Installation
+```
 $ npm install --save-dev react-svg-font-icons
+```
 
 ## Getting Started
 React-svg-font-icons use same icon names in different icon sets. You can see and copy these in [here](https://rzkhosroshahi.github.io/react-svg-font-icons/)
@@ -45,7 +47,7 @@ const IconB = () => (
 
 ## Props
 | prop key        | default props  |   describe  |
-| ------------- |:-------------:|:-------------:|
+| ------------- |:-------------:|-------------|
 | sets     | fontAwesome |  icons set |
 | name     | *none* | icon name |
 | size      | 1rem   | size set svg width and height value|
