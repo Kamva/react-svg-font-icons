@@ -23,11 +23,11 @@ import React from 'react';
 import SvgFontIcons from 'react-svg-font-icons';
 
   const FontAwesomeIcon = () => (
-    <SvgFontIcons sets="fontAwesome" name="trash" color="#333" />
+    <SvgFontIcons sets="fontAwesome" name="trash" fill="#333" />
   );
 
   const SimpleLineIcons = () => (
-    <SvgFontIcons sets="simpleLineIcon" name="trash" color="#333" /> 
+    <SvgFontIcons sets="simpleLineIcon" name="trash" fill="#333" /> 
   );
 ```
 If you want use default sets in entire project:
