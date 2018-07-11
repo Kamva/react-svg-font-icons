@@ -8,7 +8,8 @@
     "lib:watch": "babel src/lib -w -d lib --copy-files --ignore __tests__/*.js",
     "docs": "webpack-dev-server --mode development",
     "docs:prod": "webpack --mode production",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "release": "rm -rf lib && npm run lib && npm run docs:prod && npm publish"
   },
   "keywords": [],
