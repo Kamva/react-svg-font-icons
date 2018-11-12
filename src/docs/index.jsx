@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import SvgFontIcons from '../../lib';
-import fontAwesomeIcons from '../../lib/icons/fontAwesome';
+import fontAwesomeIcons from '../../icons/fontAwesome';
 import TdKeys from './TdKeys';
 import './style.css';
 

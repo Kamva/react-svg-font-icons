@@ -1,34 +1,17 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+import Icons from '../icons';
 
-class SvgFontIcons extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      IconsPaths: null,
-    };
-  }
-
-  UNSAFE_componentWillMount() {
-    const { sets } = this.props;
-
-    import(`./icons/${sets}`)
-      .then((blob) => {
-        this.setState({
-          IconsPaths: blob.default,
-        });
-      });
-  }
-
+class SvgFontIcons extends PureComponent {
   render() {
     const {
       name,
       size,
       className,
+      sets,
     } = this.props;
 
-    const icon = this.state.IconsPaths && this.state.IconsPaths[name];
+    const icon = Icons[sets][name];
     const customClassName = !className ? 'svg__icon' : `svg__icon ${className}`;
 
     if (!icon) {
